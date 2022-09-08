@@ -41,6 +41,7 @@ public class PlayerController : MonoBehaviour
         rigidbody.MovePosition(rigidbody.position + forwardMove);
         CheckGrounded();
         ProcessActions();
+        moveSpeed = moveSpeed + .005f;
     }
 
     private void Update()

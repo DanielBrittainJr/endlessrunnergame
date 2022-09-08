@@ -202,7 +202,7 @@ MonoBehaviour:
   alive: 1
   slopeLimit: 45
   moveSpeed: 10
-  turnSpeed: 150
+  turnSpeed: 100
   allowJump: 1
   jumpSpeed: 6
 --- !u!114 &485861428
